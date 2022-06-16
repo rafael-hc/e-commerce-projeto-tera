@@ -1,0 +1,163 @@
+/* primeira barra do header */
+
+.logo-link {
+    display: block;
+    height: 40px;
+    margin: 0 6px;
+}
+
+/* campo de busca */
+
+.search-bar {
+    max-width: 735px;
+    width: 100%;
+}
+
+.search-bar-form {
+    max-width: 735px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #eceff5;
+    position: relative;
+}
+
+.search-bar_label {
+    overflow: hidden;
+    position: absolute;
+    z-index: -99999;
+    color: transparent;
+}
+
+.search-bar-input {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background: #eceff5;
+    border: 1px solid #dfe4ef;
+    /* border: 0.05rem solid #c7c9cf; */
+    /* background-color: transparent; */
+    padding: 7px 10px;
+}
+
+.search-bar-btn {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+
+
+.bag-link {
+    display: block;
+    height: 100%;
+    width: 40px;
+
+    padding: 6px;
+}
+
+.btn-info-login {
+    border: none;
+    height: 100%;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    margin: 0 10px;
+}
+
+.into-btn-content {
+    display: flex;
+    height: 100%;
+}
+
+.into-btn-content>img:first-of-type {
+    width: 30px;
+    padding-right: 3px;
+}
+
+.into-btn-content>img:last-of-type {
+    width: 20px;
+    padding-left: 3px;
+}
+
+.text-btn-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.btn-info-header {
+    font-size: 13px;
+    color: #5f6872;
+}
+
+.btn-info-subheader {
+    font-size: 13px;
+    font-weight: 600;
+    color: #000;
+}
+
+.header-row-1 {
+    height: 66px;
+    display: flex;
+    align-items: center;
+}
+
+.header-row-content {
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* segunda barra */
+
+.header-row-2 {
+    height: 50px;
+    background-color: #eceff5;
+}
+
+ul {
+    font-weight: 600;
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+ul li:first-of-type p {
+    color: #e95e9c;
+}
+
+.row-2-list-iten a {
+    display: block;
+    padding: 16px 0 13px 0;
+}
+
+.menu-list {
+    position: relative;
+}
+
+.row-2-list-iten:hover {
+    border-bottom: 2px solid blue;
+}
+
+.sublist-iten {
+    display: none;
+    height: 448px;
+    background-color: #dfe4ef;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    z-index: 9999;
+}
+
+.row-2-list-iten:hover .sublist-iten {
+    display: block;
+}
