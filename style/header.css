@@ -144,9 +144,10 @@ ul li:first-of-type p {
     position: relative;
 }
 
-.row-2-list-iten:hover {
+.row-2-list-iten:hover, .row-2-list-iten:focus-within {
     border-bottom: 2px solid blue;
 }
+
 
 .sublist-iten {
     display: none;
@@ -158,6 +159,6 @@ ul li:first-of-type p {
     z-index: 9999;
 }
 
-.row-2-list-iten:hover .sublist-iten {
+.row-2-list-iten:hover .sublist-iten, .row-2-list-iten:focus-within .sublist-iten {
     display: block;
 }
