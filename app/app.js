@@ -1,24 +1,10 @@
-// const moveElement = (element, target, position = null) =>{
 
-//     if(position != null){
-//         target.insertAdjacentElement('afterbegin', element)
-//     } else(
-//         target.appendChild(element)
-//     )    
-// }
 const btnMobile = document.getElementById('btn-menu')
 const menuList = document.querySelector('.menu-mobile-content')
-
 const classes = menuList.classList
 
-// let stateMenu = false;
-// let subMenu
-
 btnMobile.addEventListener('click', () => {
-
         classes.toggle('active')
-
-    // stateMenu = !stateMenu
 })
 
 const titleMenu = document.querySelector('.title-menu-mobile')
@@ -37,7 +23,6 @@ window.addEventListener('resize', () => {
 
     if (largura > 1000) 
         classes.remove('active')
-        // subMenu.classList.remove('visible')
 
         if(largura <=1000){            
                 titleMenu.appendChild(infos)            
@@ -47,23 +32,8 @@ window.addEventListener('resize', () => {
 });
 
 const btnCloseMenus = document.querySelectorAll('.btn-close-menu')
-const btnCloseMenu = document.querySelector('.btn-close-menu')
 
-Array.from(btnCloseMenus).forEach(item => item.addEventListener('click', function(){
-    // subMenu.classList.remove('visible')
-    classes.remove('active')
-    
+Array.from(btnCloseMenus).forEach(item => item.addEventListener('click', function(){    
+    classes.remove('active')    
 }))
-
-
-
-// const menuListItem = document.getElementsByClassName('row-2-list-item')
-
-// Array.from(menuListItem).forEach(item => item.addEventListener('click', function(e){
-//     e.stopPropagation()
-//     console.log('menu clicado',this)
-//     subMenu = document.g querySelector('.sublist-iten')
-//     subMenu.classList.toggle('visible')
-//     console.log(btnCloseMenu)  
-// }));
 
