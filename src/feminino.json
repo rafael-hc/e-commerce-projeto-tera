@@ -1,0 +1,653 @@
+[
+    {
+        "id": "1",
+        "nome": "Calça Mom Jeans Cintura Super Alta Preta",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/37729676-426-512?width=426&height=512&aspect=true",
+        "valor": "99.99",
+        "tamanho":[
+            "34","36","38","40","42","44","46","48"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "calça",
+        "genero": "Feminino"
+    },
+    {
+        "id": "2",
+        "nome": "Calça Legging Feminina Básica Cintura Alta Preta",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/23864214-426-512?width=426&height=512&aspect=true",
+        "valor": "49.99",
+        "tamanho":[
+            "34","36","38","40","42","44","46","48"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "calça",
+        "genero": "Feminino"
+    },
+    {
+        "id": "3",
+        "nome": "Calça Wide Pantalona Jeans Cintura Super Alta Preta",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/37729672-426-512?width=426&height=512&aspect=true",
+        "valor": "109.99",
+        "tamanho":[
+            "34","36","38","40","42","44","46","48"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "calça",
+        "genero": "Feminino"
+    },
+    {
+        "id": "4",
+        "nome": "Calça Wide Jeans Cintura Super Alta Azul Médio",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/37332353-426-512?width=426&height=512&aspect=true",
+        "valor": "94.99",
+        "tamanho":[
+            "34","36","38","40","42","44","46","48"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "calça",
+        "genero": "Feminino"
+    },
+    {
+        "id": "5",
+        "nome": "Calça Jeans Feminina Mom Cintura Super Alta Azul Escuro",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/51983823-426-512?width=426&height=512&aspect=true",
+        "valor": "119.99",
+        "tamanho":[
+            "34","36","38","40","42","44","46","48"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "calça",
+        "genero": "Feminino"
+    },
+    {
+        "id": "6",
+        "nome": "Calça Legging Feminina Esportiva Ace Básica Preto",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/51095502-426-512?width=426&height=512&aspect=true",
+        "valor": "66.99",
+        "tamanho":[
+            "34","36","38","40","42","44","46","48"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "calça",
+        "genero": "Feminino"
+    },
+    {
+        "id": "7",
+        "nome": "Calça Legging Feminina Cintura Alta Resinada com Recortes Preta",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/53400201-426-512?width=426&height=512&aspect=true",
+        "valor": "129.99",
+        "tamanho":[
+            "34","36","38","40","42","44","46","48"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "calça",
+        "genero": "Feminino"
+    },
+    {
+        "id": "8",
+        "nome": "Calça Mom de Sarja Destroyed Cintura Super Alta Preta",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/37339515-426-512?width=426&height=512&aspect=true",
+        "valor": "129.99",
+        "tamanho":[
+            "34","36","38","40","42","44","46","48"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "calça",
+        "genero": "Feminino"
+    },
+    {
+        "id": "9",
+        "nome": "Calça Wide Pantalona Jeans Cintura Alta Azul Escuro",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/42657771-426-512?width=426&height=512&aspect=true",
+        "valor": "94.99",
+        "tamanho":[
+            "34","36","38","40","42","44","46","48"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "calça",
+        "genero": "Feminino"
+    },
+    {
+        "id": "10",
+        "nome": "Calça Cigarrete Jeans Cintura Média Azul Médio",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/51747181-426-512?width=426&height=512&aspect=true",
+        "valor": "69.99",
+        "tamanho":[
+            "34","36","38","40","42","44","46","48"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "calça",
+        "genero": "Feminino"
+    },
+    {
+        "id": "11",
+        "nome": "tênis casual recortes coloridos ace off white",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/54686825-426-512?width=426&height=512&aspect=true",
+        "valor": "119.99",
+        "tamanho":[
+            "34","35","36", "37", "38", "39", "40"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "calçados",
+        "genero": "Feminino"
+    },
+    {
+        "id": "12",
+        "nome": "Tênis Feminino Casual ACE Branco",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/41494384-426-512?width=426&height=512&aspect=true",
+        "valor": "119.99",
+        "tamanho":[
+            "34","35","36", "37", "38", "39", "40"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "calçados",
+        "genero": "Feminino"
+    },
+    {
+        "id": "13",
+        "nome": "Tênis Feminino Chunky Ace Branco",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/42438230-426-512?width=426&height=512&aspect=true",
+        "valor": "109.99",
+        "tamanho":[
+            "34","35","36", "37", "38", "39", "40"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "calçados",
+        "genero": "Feminino"
+    },
+    {
+        "id": "14",
+        "nome": "tênis feminino casual com furos esportivo ace branco",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/50743001-426-512?width=426&height=512&aspect=true",
+        "valor": "99.99",
+        "tamanho":[
+            "34","35","36", "37", "38", "39", "40"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "calçados",
+        "genero": "Feminino"
+    },
+    {
+        "id": "15",
+        "nome": "mule bico redondo com tachas via uno preto",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/53374486-426-512?width=426&height=512&aspect=true",
+        "valor": "89.99",
+        "tamanho":[
+            "34","35","36", "37", "38", "39", "40"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "calçados",
+        "genero": "Feminino"
+    },
+    {
+        "id": "16",
+        "nome": "tênis cano baixo com velcro ace branco",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/53093455-426-512?width=426&height=512&aspect=true",
+        "valor": "119.99",
+        "tamanho":[
+            "34","35","36", "37", "38", "39", "40"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "calçados",
+        "genero": "Feminino"
+    },
+    {
+        "id": "17",
+        "nome": "sandália flatform com tiras mindset preto",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/52293912-426-512?width=426&height=512&aspect=true",
+        "valor": "171.99",
+        "tamanho":[
+            "34","35","36", "37", "38", "39", "40"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "calçados",
+        "genero": "Feminino"
+    },
+    {
+        "id": "18",
+        "nome": "Tênis Feminino Casual Cano Alto com Velcro Ace Branco",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/42563230-426-512?width=426&height=512&aspect=true",
+        "valor": "119.99",
+        "tamanho":[
+            "34","35","36", "37", "38", "39", "40"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "calçados",
+        "genero": "Feminino"
+    },
+    {
+        "id": "19",
+        "nome": "sandália bico quadrado lance up salto médio triângulo mindset preto",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/52293833-426-512?width=426&height=512&aspect=true",
+        "valor": "119.99",
+        "tamanho":[
+            "34","35","36", "37", "38", "39", "40"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "calçados",
+        "genero": "Feminino"
+    },
+    {
+        "id": "20",
+        "nome": "Sapato meia pata salto alto grosso vizzano preta",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/53594996-426-512?width=426&height=512&aspect=true",
+        "valor": "189.99",
+        "tamanho":[
+            "34","35","36", "37", "38", "39", "40"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "calçados",
+        "genero": "Feminino"
+    },
+    {
+        "id": "21",
+        "nome": "Blusa Feminina Mulher Maravilha Manga Curta Decote Redondo Chumbo",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/51983855-426-512?width=426&height=512&aspect=true",
+        "valor": "39.99",
+        "tamanho":[
+            "PP","P","M", "G", "GG"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "blusas",
+        "genero": "Feminino"
+    },
+    {
+        "id": "22",
+        "nome": "camiseta básica de algodão manga curta branca",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/54844291-426-512?width=426&height=512&aspect=true",
+        "valor": "25.99",
+        "tamanho":[
+            "PP","P","M", "G", "GG"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "blusas",
+        "genero": "Feminino"
+    },
+    {
+        "id": "23",
+        "nome": "Camiseta Flamê de Algodão Básica Manga Curta Decote V Branca",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/54880594-426-512?width=426&height=512&aspect=true",
+        "valor": "25.99",
+        "tamanho":[
+            "PP","P","M", "G", "GG"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "blusas",
+        "genero": "Feminino"
+    },
+    {
+        "id": "24",
+        "nome": "Camiseta Flamê de Algodão Básica Manga Curta Decote V Preta",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/12640721-426-512?width=426&height=512&aspect=true",
+        "valor": "25.99",
+        "tamanho":[
+            "PP","P","M", "G", "GG"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "blusas",
+        "genero": "Feminino"
+    },
+    {
+        "id": "25",
+        "nome": "blusa de algodão manga curta decote redondo listrada off white",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/53646238-426-512?width=426&height=512&aspect=true",
+        "valor": "22.99",
+        "tamanho":[
+            "PP","P","M", "G", "GG"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "blusas",
+        "genero": "Feminino"
+    },
+    {
+        "id": "26",
+        "nome": "Blusa Feminina Básica Cropped com Bolso Manga Curta Decote Redondo Preta",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/54883620-426-512?width=426&height=512&aspect=true",
+        "valor": "29.99",
+        "tamanho":[
+            "PP","P","M", "G", "GG"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "blusas",
+        "genero": "Feminino"
+    },
+    {
+        "id": "27",
+        "nome": "Regata Feminina Canelada Gola Rolê Preta",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/28845857-426-512?width=426&height=512&aspect=true",
+        "valor": "36.99",
+        "tamanho":[
+            "PP","P","M", "G", "GG"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "blusas",
+        "genero": "Feminino"
+    },
+    {
+        "id": "28",
+        "nome": "Blusa Feminina Batman Manga Curta Decote Redondo Chumbo",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/16706270-426-512?width=426&height=512&aspect=true",
+        "valor": "39.99",
+        "tamanho":[
+            "PP","P","M", "G", "GG"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "blusas",
+        "genero": "Feminino"
+    },
+    {
+        "id": "29",
+        "nome": "Regata Básica Alça Fina Decote Redondo Preta",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/51430711-426-512?width=426&height=512&aspect=true",
+        "valor": "22.99",
+        "tamanho":[
+            "PP","P","M", "G", "GG"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "blusas",
+        "genero": "Feminino"
+    },
+    {
+        "id": "30",
+        "nome": "Regata Cropped Básica Alça Fina Decote Redondo Preta",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/43731541-426-512?width=426&height=512&aspect=true",
+        "valor": "19.99",
+        "tamanho":[
+            "PP","P","M", "G", "GG"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "blusas",
+        "genero": "Feminino"
+    },
+    {
+        "id": "31",
+        "nome": "short saia de veludo mindset azul escuro",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/55020133-426-512?width=426&height=512&aspect=true",
+        "valor": "169.99",
+        "tamanho":[
+            "34","36","38","40","42","44","46","48"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "shortsebermudas",
+        "genero": "Feminino"
+    },
+    {
+        "id": "32",
+        "nome": "bermuda ciclista com bolso mindset sport + sustentável azul marinho",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/55020175-426-512?width=426&height=512&aspect=true",
+        "valor": "89.99",
+        "tamanho":[
+            "34","36","38","40","42","44","46","48"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "shortsebermudas",
+        "genero": "Feminino"
+    },
+    {
+        "id": "33",
+        "nome": "short saia alfaiataria mindset kaki",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/55109896-426-512?width=426&height=512&aspect=true",
+        "valor": "119.99",
+        "tamanho":[
+            "34","36","38","40","42","44","46","48"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "shortsebermudas",
+        "genero": "Feminino"
+    },
+    {
+        "id": "34",
+        "nome": "short ciclista canelado laranja",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/55133901-426-512?width=426&height=512&aspect=true",
+        "valor": "59.99",
+        "tamanho":[
+            "34","36","38","40","42","44","46","48"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "shortsebermudas",
+        "genero": "Feminino"
+    },
+    {
+        "id": "35",
+        "nome": "bermuda alfaiataria cós liso rosa",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/54903846-426-512?width=426&height=512&aspect=true",
+        "valor": "119.99",
+        "tamanho":[
+            "34","36","38","40","42","44","46","48"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "shortsebermudas",
+        "genero": "Feminino"
+    },
+    {
+        "id": "36",
+        "nome": "bermuda ciclista de poliamida com recortes esportivo ace preta",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/54903860-426-512?width=426&height=512&aspect=true",
+        "valor": "89.99",
+        "tamanho":[
+            "34","36","38","40","42","44","46","48"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "shortsebermudas",
+        "genero": "Feminino"
+    },
+    {
+        "id": "37",
+        "nome": "short running estampado com bermuda interna esportivo ace preto",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/54903313-426-512?width=426&height=512&aspect=true",
+        "valor": "null",
+        "tamanho":[
+            "34","36","38","40","42","44","46","48"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "shortsebermudas",
+        "genero": "Feminino"
+    },
+    {
+        "id": "38",
+        "nome": "bermuda jeans ciclista cintura baixa azul escuro",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/55075888-426-512?width=426&height=512&aspect=true",
+        "valor": "89.99",
+        "tamanho":[
+            "34","36","38","40","42","44","46","48"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "shortsebermudas",
+        "genero": "Feminino"
+    },
+    {
+        "id": "39",
+        "nome": "bermuda jeans ciclista cintura baixa azul escuro",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/55075883-426-512?width=426&height=512&aspect=true",
+        "valor": "89.99",
+        "tamanho":[
+            "34","36","38","40","42","44","46","48"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "shortsebermudas",
+        "genero": "Feminino"
+    },
+    {
+        "id": "40",
+        "nome": "short jeans mom cós elástico cintura super alta azul escuro",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/55051710-426-512?width=426&height=512&aspect=true",
+        "valor": "99.99",
+        "tamanho":[
+            "34","36","38","40","42","44","46","48"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "shortsebermudas",
+        "genero": "Feminino"
+    },
+    {
+        "id": "41",
+        "nome": "vestido curto de tule estampado xadrez vichy com recorte manga bufante marrom",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/50703278-426-512?width=426&height=512&aspect=true",
+        "valor": "169.99",
+        "tamanho":[
+            "PP","P","M", "G", "GG"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "vestidos",
+        "genero": "Feminino"
+    },
+    {
+        "id": "42",
+        "nome": "vestido de paetês com fenda laranja neon",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/53014000-426-512?width=426&height=512&aspect=true",
+        "valor": "159.99",
+        "tamanho":[
+            "PP","P","M", "G", "GG"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "vestidos",
+        "genero": "Feminino"
+    },
+    {
+        "id": "43",
+        "nome": "Vestido Chemise de Viscose Estampado de Poá com Babado Curto Manga Longa Preto",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/53636133-426-512?width=426&height=512&aspect=true",
+        "valor": "129.99",
+        "tamanho":[
+            "PP","P","M", "G", "GG"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "vestidos",
+        "genero": "Feminino"
+    },
+    {
+        "id": "44",
+        "nome": "vestido midi canelado halter neck com fenda preto",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/43785847-426-512?width=426&height=512&aspect=true",
+        "valor": "71.99",
+        "tamanho":[
+            "PP","P","M", "G", "GG"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "vestidos",
+        "genero": "Feminino"
+    },
+    {
+        "id": "45",
+        "nome": "Vestido Feminino Curto em Tule Estampado Poá Manga Bufante 3/4 Decote em V Verde",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/47547311-426-512?width=426&height=512&aspect=true",
+        "valor": "149.99",
+        "tamanho":[
+            "PP","P","M", "G", "GG"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "vestidos",
+        "genero": "Feminino"
+    },
+    {
+        "id": "46",
+        "nome": "vestido midi com lastex e babados manga curta rosa",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/51495586-426-512?width=426&height=512&aspect=true",
+        "valor": "86.99",
+        "tamanho":[
+            "PP","P","M", "G", "GG"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "vestidos",
+        "genero": "Feminino"
+    },
+    {
+        "id": "47",
+        "nome": "vestido midi estampado de poá manga curta decote redondo  com recortes off white",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/50612401-426-512?width=426&height=512&aspect=true",
+        "valor": "141.99",
+        "tamanho":[
+            "PP","P","M", "G", "GG"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "vestidos",
+        "genero": "Feminino"
+    },
+    {
+        "id": "48",
+        "nome": "vestido longo jeans alça larga decote reto com recortes azul claro",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/50782963-426-512?width=426&height=512&aspect=true",
+        "valor": "159.99",
+        "tamanho":[
+            "PP","P","M", "G", "GG"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "vestidos",
+        "genero": "Feminino"
+    },
+    {
+        "id": "49",
+        "nome": "vestido canelado midi básico com fenda alça média decote redondo  pink",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/50725250-426-512?width=426&height=512&aspect=true",
+        "valor": "79.99",
+        "tamanho":[
+            "PP","P","M", "G", "GG"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "vestidos",
+        "genero": "Feminino"
+    },
+    {
+        "id": "50",
+        "nome": "vestido midi com lastex e babados manga curta preto",
+        "imagem": "https://cea.vtexassets.com/arquivos/ids/51503024-426-512?width=426&height=512&aspect=true",
+        "valor": "86.99",
+        "tamanho":[
+            "PP","P","M", "G", "GG"
+          ],
+        "resumo": "lorem ipsum..........",
+        "descricao": "lorem ipsum dolor sit.........",
+        "categoria": "vestidos",
+        "genero": "Feminino"
+    }
+  ]
+  

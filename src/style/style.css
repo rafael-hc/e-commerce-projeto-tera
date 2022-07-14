@@ -1,0 +1,69 @@
+
+
+.path-view {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+
+#products-grid{
+    max-width: 100%;
+    margin-left: 10px;
+    padding: 10px 10px;
+    border-top: 1px solid #dcdcdc;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.products-main{
+    display: flex;
+}
+
+
+
+
+ul{
+    padding-left: 30px;
+}
+
+ul li ul{
+    padding-left: 10px;
+}
+
+.iten-product{
+    min-width: 13rem;
+    max-width: 13.75rem;
+    padding: 0.875rem;
+}
+
+.iten-product img {
+    width: 100%;
+}
+
+.text-iten-product{
+    padding: 0.5rem;
+}
+
+.info-preco{
+    margin-top: 1rem;
+    padding-top : 1rem;
+    border-top: 1px solid #ccc;
+}
+
+.preco {
+    font-size: 1.4rem;
+    color: #03c998;
+    font-weight: 900;
+}
+
+.price {
+    font-size: 1.4rem;
+}

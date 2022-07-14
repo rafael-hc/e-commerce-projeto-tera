@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="../style/header.css">
     <link rel="stylesheet" href="../style/media.css">
     <script src="../app/app.js" defer></script>
-    
+    <script src="../api.js" defer></script>
+
     <title>C8A e-commerce</title>
 </head>
 
-<body>
+<body onload="buscarProdutos('')">
     <div class="container">
         <header>
             <!-- menu superiro com search bar -->
@@ -47,7 +48,8 @@
                             <a href="#">
                                 <button class="btn-info btn-reset">
                                     <div class="btn-info-content">
-                                        <img src="../assets/chat-circle-dots.svg" alt="Ícone em formato de balão de pensamento">
+                                        <img src="../assets/chat-circle-dots.svg"
+                                            alt="Ícone em formato de balão de pensamento">
                                         <div class="btn-info-text">
                                             <div class="btn-info-text-header">
                                                 <p>serviços e</p>
@@ -91,15 +93,16 @@
                 <section class="width-content menu-list">
                     <div class="menu-mobile-content h-menu">
                         <div class="title-menu-mobile">
-                            <button class="btn-reset btn-close-menu"><img src="../assets/icon-close-menu.svg" alt=""></button>
+                            <button class="btn-reset btn-close-menu"><img src="../assets/icon-close-menu.svg"
+                                    alt=""></button>
                         </div>
                         <ul class="menu-desktop menu">
                             <li class="row-2-list-item">
-                                <a  href="../feminino/produtos.html">
+                                <a href="./produtos.html">
                                     <p>feminino</p>
                                 </a>
                                 <div class="width-content sublist-iten">
-                                    
+
                                     <div class="section-submenu">
                                         <div class="sublist-container">
                                             <ul>
@@ -305,50 +308,34 @@
             </div>
         </header>
         <main>
-            <div class="produto-container width-content">
-                <div class="path-view">paginal inicial > moda feminina > vestido</div>
-                <div class="product-main">
-                    <div class="product-view">
-                        
-                        <div class="img-product">
-                            <div class="miniatures">
-                                <div class="img-miniature"><img src="./assets/54804190-150-auto.webp" alt=""></div>
-                                <div class="img-miniature"><img src="./assets/54804191-150-auto.webp" alt=""></div>
-                                <div class="img-miniature"><img src="./assets/54804192-150-auto.webp" alt=""></div>
-                                <div class="img-miniature"><img src="./assets/54804193-150-auto.webp" alt=""></div>
-                                <div class="img-miniature"><img src="./assets/54804202-150-auto.webp" alt=""></div>
-                            </div>
-                            <div class="normal"><img src="./assets/54804190-1600-auto.webp" alt=""></div>
-                        </div>
+            <div class="products-container width-content">
+
+                <div class="path-view">
+                    <h1>moda feminina</h1>
+                    <br>
+                    <p>paginal inicial > moda feminina</p>
+                </div>
+                <div class="products-main">
+                    <div class="products-details">
+                        <h2>categoria</h2>
+                        <br>
+                        <ul>
+                            <li><a href="?genero=Feminino"></a>
+                                <ul>
+                                    <li><a href="?categoria=calçados">Calçados</a></li>
+                                    <li>Bulsas</li>
+                                    <li>Calças</li>
+                                    <li>Shorts e Bermudas</li>
+                                    <li>Vestidos</li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="product-info">
-                        <h1>vestido midi renda alça fina mindset bege</h1>
-                        <div class="classifica-product">
-                            <a href="#">
-                                <span class="star">☆☆☆☆☆</span>
-                                <span>(0)</span>
-                            </a>
-                        </div>
-                        <div class="info-preco">
-                            <p>por:
-                            <span class="preco">R$ 229,90</span></p>
-                            <p>em até <b>5x</b> de <b>R$ 45,99</b> no cartão de crédito sem juros</p>
-                        </div>
-                        <div class="tamanhos">
-                            <button class="tamanho-iten">PP</button>
-                            <button  class="tamanho-iten">P</button>
-                            <button  class="tamanho-iten">M</button>
-                            <button  class="tamanho-iten">G</button>
-                            <button  class="tamanho-iten">GG</button>
-                            <span><a href="#">guia de medidas</a></span>
-                        </div>
-                        <div class="action-buy">
-                            <button class="buy">comprar</button>
-                        </div>
+                    <div id="products-grid">
+                        
                     </div>
                 </div>
             </div>
-
         </main>
     </div>
 </body>

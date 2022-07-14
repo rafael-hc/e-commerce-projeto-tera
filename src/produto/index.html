@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="../style/header.css">
     <link rel="stylesheet" href="../style/media.css">
     <script src="../app/app.js" defer></script>
-    
+    <script src="../api.js" defer></script>
+
     <title>C8A e-commerce</title>
 </head>
 
-<body>
+<body onload="getProdutoPorTipo('..')">
     <div class="container">
         <header>
             <!-- menu superiro com search bar -->
@@ -47,7 +48,8 @@
                             <a href="#">
                                 <button class="btn-info btn-reset">
                                     <div class="btn-info-content">
-                                        <img src="../assets/chat-circle-dots.svg" alt="Ícone em formato de balão de pensamento">
+                                        <img src="../assets/chat-circle-dots.svg"
+                                            alt="Ícone em formato de balão de pensamento">
                                         <div class="btn-info-text">
                                             <div class="btn-info-text-header">
                                                 <p>serviços e</p>
@@ -91,15 +93,16 @@
                 <section class="width-content menu-list">
                     <div class="menu-mobile-content h-menu">
                         <div class="title-menu-mobile">
-                            <button class="btn-reset btn-close-menu"><img src="../assets/icon-close-menu.svg" alt=""></button>
+                            <button class="btn-reset btn-close-menu"><img src="../assets/icon-close-menu.svg"
+                                    alt=""></button>
                         </div>
                         <ul class="menu-desktop menu">
                             <li class="row-2-list-item">
-                                <a  href="./produtos.html">
+                                <a href="../produtos/feminino/?genero=Feminino">
                                     <p>feminino</p>
                                 </a>
                                 <div class="width-content sublist-iten">
-                                    
+
                                     <div class="section-submenu">
                                         <div class="sublist-container">
                                             <ul>
@@ -305,83 +308,16 @@
             </div>
         </header>
         <main>
-            <div class="products-container width-content">
-                
-                <div class="path-view">
-                    <h1>moda feminina</h1>
-                    <br>
-                    <p>paginal inicial > moda feminina</p>
-                </div>
-                <div class="products-main">
-                    <div class="products-details">
-                        <h2>categoria</h2>
-                        <br>
-                        <ul><li>Moda feminina
-                            <ul>
-                                <li>Calçados</li>
-                                <li>Bulsas</li>
-                                <li>Calças</li>
-                                <li>Shorts e Bermudas</li>
-                                <li>Vestidos</li>
-                            </ul>
-                        </li></ul>
-                    </div>
-                    <div class="products-grid">
-                        <div>
-                            <article class="item-product">
-                                <a style="display: flex; flex-direction: column; width: 116px;" href="../produto/produto.html"><img src="../produto/assets/54804190-150-auto.webp" alt=""></a>
-                            </article>
-                        </div>
-                        <div>
-                            <article class="item-product">
-                                <a style="display: flex; flex-direction: column; width: 116px;" href="../produto/produto.html"><img src="../produto/assets/54804190-150-auto.webp" alt=""></a>
-                            </article>
-                        </div>
-                        <div>
-                            <article class="item-product">
-                                <a style="display: flex; flex-direction: column; width: 116px;" href="../produto/produto.html"><img src="../produto/assets/54804190-150-auto.webp" alt=""></a>
-                            </article>
-                        </div>
-                        <div>
-                            <article class="item-product">
-                                <a style="display: flex; flex-direction: column; width: 116px;" href="../produto/produto.html"><img src="../produto/assets/54804190-150-auto.webp" alt=""></a>
-                            </article>
-                        </div>
-                        <div>
-                            <article class="item-product">
-                                <a style="display: flex; flex-direction: column; width: 116px;" href="../produto/produto.html"><img src="../produto/assets/54804190-150-auto.webp" alt=""></a>
-                            </article>
-                        </div>
-                        <div>
-                            <article class="item-product">
-                                <a style="display: flex; flex-direction: column; width: 116px;" href="../produto/produto.html"><img src="../produto/assets/54804190-150-auto.webp" alt=""></a>
-                            </article>
-                        </div>
-                        <div>
-                            <article class="item-product">
-                                <a style="display: flex; flex-direction: column; width: 116px;" href="../produto/produto.html"><img src="../produto/assets/54804190-150-auto.webp" alt=""></a>
-                            </article>
-                        </div>
-                        <div>
-                            <article class="item-product">
-                                <a style="display: flex; flex-direction: column; width: 116px;" href="../produto/produto.html"><img src="../produto/assets/54804190-150-auto.webp" alt=""></a>
-                            </article>
-                        </div>
-                        <div>
-                            <article class="item-product">
-                                <a style="display: flex; flex-direction: column; width: 116px;" href="../produto/produto.html"><img src="../produto/assets/54804190-150-auto.webp" alt=""></a>
-                            </article>
-                        </div>
-                        <div>
-                            <article class="item-product">
-                                <a style="display: flex; flex-direction: column; width: 116px;" href="../produto/produto.html"><img src="../produto/assets/54804190-150-auto.webp" alt=""></a>
-                            </article>
-                        </div>
-                        
-                        
-                    </div>
+            <div class="produto-container width-content">
+                <div class="path-view">paginal inicial > moda feminina > vestido</div>
+                <div id="product-main">
+                    
                 </div>
             </div>
+            <div id="products-grid">
+
+            </div>
+
         </main>
     </div>
 </body>

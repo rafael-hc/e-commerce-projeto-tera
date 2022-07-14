@@ -11,7 +11,7 @@
     font-size: 12px;
 }
 
-.product-main {
+#product-main {
     display: flex;
     
 }
@@ -69,14 +69,14 @@ h1 {
     font-weight: 900;
 }
 
-.tamanhos {
+#tamanhos {
     display: flex;
     padding: 20px 0px;
     position: relative;
     border-bottom: 1px solid #dcdcdc;
 }
 
-.tamanhos span {
+#tamanhos span {
     position: absolute;
     right: 10px;
 }

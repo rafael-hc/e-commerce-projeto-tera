@@ -8,6 +8,10 @@
     width: 100vw;
     position: fixed;
 } */
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 a{
     
