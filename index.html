@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="./src/style/general.css">
-    <link rel="stylesheet" href="./src//style/header.css">
-    <link rel="stylesheet" href="./src//style/media.css">
-    <link rel="stylesheet" href="./et --hard c6833488b3cfaea4182a6e5510938f65460cbbbb">
-    <script src="./src/app/app.js" defer></script>
-    <script src="./src/api.js" defer></script>
+    <link rel="stylesheet" href="/src/style/general.css">
+    <link rel="stylesheet" href="/src/style/header.css">
+    <link rel="stylesheet" href="/src/style/media.css">
+    <link rel="stylesheet" href="/src/style/style.css">
+    <script src="/src/app/app.js" defer></script>
+    <script src="/src/api.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
@@ -23,27 +23,26 @@
 <body onload="buscarProdutos()">
     <div class="container">
         <header>
-                       
             <!-- menu superiro com search bar -->
             <div class="header-row-1">
                 <section class="header-row-1-content width-content">
                     <div class="container-menu-mobile">
                         <div class="container-btn-menu">
-                            <button id="btn-menu" class="btn-reset btn-menu-mobile"><img src="./src/assets/icon-menu.svg"
+                            <button id="btn-menu" class="btn-reset btn-menu-mobile"><img src="/src/assets/icon-menu.svg"
                                     alt=""></button>
                         </div>
                     </div>
                     <div class="logo">
-                        <a class="logo-link text-decoration-none" href="index.html"><img style="height: 100%;" src="./src/assets/Logo.svg"
+                        <a class="logo-link" href="/"><img style="height: 100%;" src="/src/assets/Logo.svg"
                                 alt="Imagem do Logotipo C8A"></a>
                     </div>
                     <div class="search-bar">
                         <form action="search" class="search-bar-form">
                             <label for="s" class="search-bar_label">faça sua busca dentre todos nossos produtos</label>
-                            <input placeholder="pesquise por produto, categoria ou marca..." type="search" id="s"
+                            <input placeholder="pesquise por produto ou categoria..." type="search" id="s"
                                 class="search-bar-input">
                             <button value="search" type="submit" class="search-bar-btn"><img
-                                    src="./src/assets/magnifying-glass.svg" alt="Um ícone no formato de lupa"></button>
+                                    src="/src/assets/magnifying-glass.svg" alt="Um ícone no formato de lupa"></button>
                         </form>
                     </div>
                     <div class="header-info-1">
@@ -51,10 +50,10 @@
                     </div>
                     <div class="header-info">
                         <div class="header-row-info">
-                            <a href="#" class="text-decoration-none">
+                            <a href="#">
                                 <button class="btn-info btn-reset">
                                     <div class="btn-info-content">
-                                        <img src="./src/assets/chat-circle-dots.svg"
+                                        <img src="/src/assets/chat-circle-dots.svg"
                                             alt="Ícone em formato de balão de pensamento">
                                         <div class="btn-info-text">
                                             <div class="btn-info-text-header">
@@ -64,16 +63,16 @@
                                                 <p>atendimento</p>
                                             </div>
                                         </div>
-                                        <img src="./src/assets/caret-down.svg" alt="Ícone em formato de seta para baixo">
+                                        <img src="/src/assets/caret-down.svg" alt="Ícone em formato de seta para baixo">
                                     </div>
                                 </button>
                             </a>
                         </div>
                         <div class="header-row-info">
-                            <a href="./src/login/login.html" class="text-decoration-none">
+                            <a href="/src/login/">
                                 <button class="btn-info btn-reset">
                                     <div class="btn-info-content">
-                                        <img src="./src/assets/user.svg" alt="Ícone em formato de uma pessoa">
+                                        <img src="/src/assets/user.svg" alt="Ícone em formato de uma pessoa">
                                         <div class="btn-info-text">
                                             <div class="btn-info-text-header">
                                                 <p>minha conta e</p>
@@ -82,14 +81,14 @@
                                                 <p>meus pedidos</p>
                                             </div>
                                         </div>
-                                        <img src="./src/assets/caret-down.svg" alt="Ícone em formato de seta para baixo">
+                                        <img src="/src/assets/caret-down.svg" alt="Ícone em formato de seta para baixo">
                                     </div>
                                 </button>
                             </a>
                         </div>
                     </div>
                     <div class="bag">
-                        <a class="bag-link text-decoration-none" href="./src/checkout/checkout.html"><img src="./src/assets/handbag.svg"
+                        <a class="bag-link" href="/src/checkout/"><img src="/src/assets/handbag.svg"
                                 alt="Ícone em formato de bolsa de mão"></a>
                     </div>
                 </section>
@@ -97,14 +96,14 @@
             <!-- menu inferior com lista de links -->
             <div class="header-row-2">
                 <section class="width-content menu-list">
-                    <div class="menu-mobile-content h-menu px-3">
+                    <div class="menu-mobile-content h-menu">
                         <div class="title-menu-mobile">
-                            <button class="btn-reset btn-close-menu"><img src="./src/assets/icon-close-menu.svg"
+                            <button class="btn-reset btn-close-menu"><img src="/src/assets/icon-close-menu.svg"
                                     alt=""></button>
                         </div>
                         <ul class="menu-desktop menu">
                             <li class="row-2-list-item">
-                                <a href="/src/produtos/feminino/?genero=Feminino" class="text-decoration-none">
+                                <a href="/src/produtos/feminino/?genero=feminino">
                                     <p>feminino</p>
                                 </a>
                                 <div class="width-content sublist-iten">
@@ -113,22 +112,22 @@
                                         <div class="sublist-container">
                                             <ul>
                                                 <li class="sub-list">
-                                                    <a href="#" class="text-decoration-none">
+                                                    <a href="#">
                                                         <p>roupas</p>
                                                     </a>
                                                 </li>
                                                 <li class="sub-list">
-                                                    <a href="#" class="text-decoration-none">
+                                                    <a href="#">
                                                         <p>calçados</p>
                                                     </a>
                                                 </li>
                                                 <li class="sub-list">
-                                                    <a href="#" class="text-decoration-none">
+                                                    <a href="#">
                                                         <p>acessórios</p>
                                                     </a>
                                                 </li>
                                                 <li class="sub-list">
-                                                    <a href="#" class="text-decoration-none">
+                                                    <a href="#">
                                                         <p>roupa íntima</p>
                                                     </a>
                                                 </li>
@@ -138,7 +137,7 @@
                                 </div>
                             </li>
                             <li class="row-2-list-item">
-                                <a href="#" class="text-decoration-none">
+                                <a href="/src/produtos/masculino/?genero=masculino">
                                     <p>masculino</p>
                                 </a>
                                 <div class="width-content sublist-iten">
@@ -146,22 +145,22 @@
                                         <div class="sublist-container">
                                             <ul>
                                                 <li class="sub-list">
-                                                    <a href="#" class="text-decoration-none">
+                                                    <a href="#">
                                                         <p>roupas</p>
                                                     </a>
                                                 </li>
                                                 <li class="sub-list">
-                                                    <a href="#" class="text-decoration-none">
+                                                    <a href="#">
                                                         <p>calçados</p>
                                                     </a>
                                                 </li>
                                                 <li class="sub-list">
-                                                    <a href="#" class="text-decoration-none">
+                                                    <a href="#">
                                                         <p>acessórios</p>
                                                     </a>
                                                 </li>
                                                 <li class="sub-list">
-                                                    <a href="#" class="text-decoration-none">
+                                                    <a href="#">
                                                         <p>roupa íntima</p>
                                                     </a>
                                                 </li>
@@ -171,7 +170,7 @@
                                 </div>
                             </li>
                             <li class="row-2-list-item">
-                                <a href="#" class="text-decoration-none">
+                                <a href="/src/produtos/infantil/?genero=Infantil">
                                     <p>infantil</p>
                                 </a>
                                 <div class="width-content sublist-iten">
@@ -179,7 +178,7 @@
                                 </div>
                             </li>
                             <li class="row-2-list-item">
-                                <a href="#" class="text-decoration-none">
+                                <a href="#">
                                     <p>plus size</p>
                                 </a>
                                 <div class="width-content sublist-iten">
@@ -187,7 +186,7 @@
                                 </div>
                             </li>
                             <li class="row-2-list-item">
-                                <a href="#" class="text-decoration-none">
+                                <a href="#">
                                     <p>beleza</p>
                                 </a>
                                 <div class="width-content sublist-iten">
@@ -195,7 +194,7 @@
                                 </div>
                             </li>
                             <li class="row-2-list-item">
-                                <a href="#" class="text-decoration-none">
+                                <a href="#">
                                     <p>mindset</p>
                                 </a>
                                 <div class="width-content sublist-iten">
@@ -203,7 +202,7 @@
                                 </div>
                             </li>
                             <li class="row-2-list-item">
-                                <a href="#" class="text-decoration-none">
+                                <a href="#">
                                     <p>calçados</p>
                                 </a>
                                 <div class="width-content sublist-iten">
@@ -211,7 +210,7 @@
                                 </div>
                             </li>
                             <li class="row-2-list-item">
-                                <a href="#" class="text-decoration-none">
+                                <a href="#">
                                     <p>esportivos</p>
                                 </a>
                                 <div class="width-content sublist-iten">
@@ -219,7 +218,7 @@
                                 </div>
                             </li>
                             <li class="row-2-list-item">
-                                <a href="#" class="text-decoration-none">
+                                <a href="#">
                                     <p>acessórios e relógios</p>
                                 </a>
                                 <div class="width-content sublist-iten">
@@ -227,7 +226,7 @@
                                 </div>
                             </li>
                             <li class="row-2-list-item">
-                                <a href="#" class="text-decoration-none">
+                                <a href="#">
                                     <p>eletrônicos</p>
                                 </a>
                                 <div class="width-content sublist-iten">
@@ -235,7 +234,7 @@
                                 </div>
                             </li>
                             <li class="row-2-list-item">
-                                <a href="#" class="text-decoration-none">
+                                <a href="#">
                                     <p>casa</p>
                                 </a>
                                 <div class="width-content sublist-iten">
@@ -243,7 +242,7 @@
                                 </div>
                             </li>
                             <li class="row-2-list-item">
-                                <a href="#" class="text-decoration-none">
+                                <a href="#">
                                     <p>personagens</p>
                                 </a>
                                 <div class="width-content sublist-iten">
@@ -251,7 +250,7 @@
                                 </div>
                             </li>
                             <li class="row-2-list-item">
-                                <a href="#" class="text-decoration-none">
+                                <a href="#">
                                     <p>jeans</p>
                                 </a>
                                 <div class="width-content sublist-iten">
@@ -259,7 +258,7 @@
                                 </div>
                             </li>
                             <li class="row-2-list-item">
-                                <a href="#" class="text-decoration-none">
+                                <a href="#">
                                     <p>novidades</p>
                                 </a>
                                 <div class="width-content sublist-iten">
@@ -270,42 +269,42 @@
                     </div>
                     <div class="width-content menu-mobile h-menu">
                         <div>
-                            <a href="#" class="text-decoration-none">
+                            <a href="#">
                                 <p>novidades</p>
                             </a>
                         </div>
                         <div>
-                            <a href="#" class="text-decoration-none">
+                            <a href="/src/produtos/feminino/?genero=feminino">
                                 <p>feminino</p>
                             </a>
                         </div>
                         <div>
-                            <a href="#" class="text-decoration-none">
+                            <a href="/src/produtos/masculino/?genero=masculino">
                                 <p>masculino</p>
                             </a>
                         </div>
                         <div>
-                            <a href="#" class="text-decoration-none">
+                            <a href="/src/produtos/infantil/?genero=Infantil">
                                 <p>infantil</p>
                             </a>
                         </div>
                         <div>
-                            <a href="#" class="text-decoration-none">
+                            <a href="#">
                                 <p>plus size</p>
                             </a>
                         </div>
                         <div>
-                            <a href="#" class="text-decoration-none">
+                            <a href="#">
                                 <p>calçados</p>
                             </a>
                         </div>
                         <div>
-                            <a href="#" class="text-decoration-none">
+                            <a href="#">
                                 <p>beleza</p>
                             </a>
                         </div>
                         <div>
-                            <a href="#" class="text-decoration-none">
+                            <a href="#">
                                 <p>eletrônicos</p>
                             </a>
                         </div>
@@ -325,13 +324,13 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="6000">
-                        <img src="./src/assets/3067d189-71a3-4ccc-96cc-888a3b3f2866___1bb5b20272c15b334bab472a05311bad.webp" class="d-block w-100" alt="...">
+                        <img src="/src/assets/3067d189-71a3-4ccc-96cc-888a3b3f2866___1bb5b20272c15b334bab472a05311bad.webp" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item" data-bs-interval="6000">
-                        <img src="./src/assets/e477be5e-ab52-4187-8e9b-d1877d1fe884___98fee7e4f65d6b078f077509f2a9d78a.webp" class="d-block w-100" alt="...">
+                        <img src="/src/assets/e477be5e-ab52-4187-8e9b-d1877d1fe884___98fee7e4f65d6b078f077509f2a9d78a.webp" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item" data-bs-interval="6000">
-                        <img src="./src/assets/a21c79ea-6053-48df-8dd7-731c4aa2cc80___d643a7311179ddb1a77a81cb0e3d2f38.webp" class="d-block w-100" alt="...">
+                        <img src="/src/assets/a21c79ea-6053-48df-8dd7-731c4aa2cc80___d643a7311179ddb1a77a81cb0e3d2f38.webp" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"

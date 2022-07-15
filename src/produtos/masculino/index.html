@@ -5,17 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="../style/general.css">
-    <link rel="stylesheet" href="../style/header.css">
-    <link rel="stylesheet" href="../style/media.css">
-    <script src="../app/app.js" defer></script>
-    <script src="../api.js" defer></script>
+    <link rel="stylesheet" href="/src/produtos/masculino/style.css">
+    <link rel="stylesheet" href="/src/style/general.css">
+    <link rel="stylesheet" href="/src/style/header.css">
+    <link rel="stylesheet" href="/src/style/media.css">
+    <script src="/src/app/app.js" defer></script>
+    <script src="/src/api.js" defer></script>
 
     <title>C8A e-commerce</title>
 </head>
 
-<body onload="buscarProdutos('')">
+<body onload="getProdutoPorTipo()">
     <div class="container">
         <header>
             <!-- menu superiro com search bar -->
@@ -23,21 +23,21 @@
                 <section class="header-row-1-content width-content">
                     <div class="container-menu-mobile">
                         <div class="container-btn-menu">
-                            <button id="btn-menu" class="btn-reset btn-menu-mobile"><img src="../assets/icon-menu.svg"
+                            <button id="btn-menu" class="btn-reset btn-menu-mobile"><img src="/src/assets/icon-menu.svg"
                                     alt=""></button>
                         </div>
                     </div>
                     <div class="logo">
-                        <a class="logo-link" href="../index.html"><img style="height: 100%;" src="../assets/Logo.svg"
+                        <a class="logo-link" href="/"><img style="height: 100%;" src="/src/assets/Logo.svg"
                                 alt="Imagem do Logotipo C8A"></a>
                     </div>
                     <div class="search-bar">
                         <form action="search" class="search-bar-form">
                             <label for="s" class="search-bar_label">faça sua busca dentre todos nossos produtos</label>
-                            <input placeholder="pesquise por produto, categoria ou marca..." type="search" id="s"
+                            <input placeholder="pesquise por produto ou categoria..." type="search" id="s"
                                 class="search-bar-input">
                             <button value="search" type="submit" class="search-bar-btn"><img
-                                    src="../assets/magnifying-glass.svg" alt="Um ícone no formato de lupa"></button>
+                                    src="/src/assets/magnifying-glass.svg" alt="Um ícone no formato de lupa"></button>
                         </form>
                     </div>
                     <div class="header-info-1">
@@ -48,7 +48,7 @@
                             <a href="#">
                                 <button class="btn-info btn-reset">
                                     <div class="btn-info-content">
-                                        <img src="../assets/chat-circle-dots.svg"
+                                        <img src="/src/assets/chat-circle-dots.svg"
                                             alt="Ícone em formato de balão de pensamento">
                                         <div class="btn-info-text">
                                             <div class="btn-info-text-header">
@@ -58,16 +58,16 @@
                                                 <p>atendimento</p>
                                             </div>
                                         </div>
-                                        <img src="../assets/caret-down.svg" alt="Ícone em formato de seta para baixo">
+                                        <img src="/src/assets/caret-down.svg" alt="Ícone em formato de seta para baixo">
                                     </div>
                                 </button>
                             </a>
                         </div>
                         <div class="header-row-info">
-                            <a href="../login/login.html">
+                            <a href="/src/login/">
                                 <button class="btn-info btn-reset">
                                     <div class="btn-info-content">
-                                        <img src="../assets/user.svg" alt="Ícone em formato de uma pessoa">
+                                        <img src="/src/assets/user.svg" alt="Ícone em formato de uma pessoa">
                                         <div class="btn-info-text">
                                             <div class="btn-info-text-header">
                                                 <p>minha conta e</p>
@@ -76,14 +76,14 @@
                                                 <p>meus pedidos</p>
                                             </div>
                                         </div>
-                                        <img src="../assets/caret-down.svg" alt="Ícone em formato de seta para baixo">
+                                        <img src="/src/assets/caret-down.svg" alt="Ícone em formato de seta para baixo">
                                     </div>
                                 </button>
                             </a>
                         </div>
                     </div>
                     <div class="bag">
-                        <a class="bag-link" href="../checkout/checkout.html"><img src="../assets/handbag.svg"
+                        <a class="bag-link" href="/src/checkout/"><img src="/src/assets/handbag.svg"
                                 alt="Ícone em formato de bolsa de mão"></a>
                     </div>
                 </section>
@@ -93,12 +93,12 @@
                 <section class="width-content menu-list">
                     <div class="menu-mobile-content h-menu">
                         <div class="title-menu-mobile">
-                            <button class="btn-reset btn-close-menu"><img src="../assets/icon-close-menu.svg"
+                            <button class="btn-reset btn-close-menu"><img src="/src/assets/icon-close-menu.svg"
                                     alt=""></button>
                         </div>
                         <ul class="menu-desktop menu">
                             <li class="row-2-list-item">
-                                <a href="./produtos.html">
+                                <a href="/src/produtos/feminino/?genero=feminino">
                                     <p>feminino</p>
                                 </a>
                                 <div class="width-content sublist-iten">
@@ -132,7 +132,7 @@
                                 </div>
                             </li>
                             <li class="row-2-list-item">
-                                <a href="#">
+                                <a href="/src/produtos/masculino/?genero=masculino">
                                     <p>masculino</p>
                                 </a>
                                 <div class="width-content sublist-iten">
@@ -165,7 +165,7 @@
                                 </div>
                             </li>
                             <li class="row-2-list-item">
-                                <a href="#">
+                                <a href="/src/produtos/infantil/?genero=Infantil">
                                     <p>infantil</p>
                                 </a>
                                 <div class="width-content sublist-iten">
@@ -269,17 +269,17 @@
                             </a>
                         </div>
                         <div>
-                            <a href="#">
+                            <a href="/src/produtos/feminino/?genero=feminino">
                                 <p>feminino</p>
                             </a>
                         </div>
                         <div>
-                            <a href="#">
+                            <a href="/src/produtos/masculino/?genero=masculino">
                                 <p>masculino</p>
                             </a>
                         </div>
                         <div>
-                            <a href="#">
+                            <a href="/src/produtos/infantil/?genero=Infantil">
                                 <p>infantil</p>
                             </a>
                         </div>
@@ -311,22 +311,20 @@
             <div class="products-container width-content">
 
                 <div class="path-view">
-                    <h1>moda feminina</h1>
+                    <h1>moda masculina</h1>
                     <br>
-                    <p>paginal inicial > moda feminina</p>
+                    <p><a href="/">paginal inicial</a> > moda masculina</p>
                 </div>
                 <div class="products-main">
                     <div class="products-details">
                         <h2>categoria</h2>
                         <br>
                         <ul>
-                            <li><a href="?genero=Feminino"></a>
+                            <li><a href="/src/produtos/masculino/?genero=masculino"></a>
                                 <ul>
-                                    <li><a href="?categoria=calçados">Calçados</a></li>
-                                    <li>Bulsas</li>
-                                    <li>Calças</li>
-                                    <li>Shorts e Bermudas</li>
-                                    <li>Vestidos</li>
+                                    <li><a href="/src/produtos/masculino/?categoria=camisetas-masculinas">Camisetas</a></li>
+                                    <li><a href="/src/produtos/masculino/?categoria=camisas-masculinas">Camisas</a></li>
+                                    <li><a href="/src/produtos/masculino/?categoria=calças-masculinas">Calças</a></li>
                                 </ul>
                             </li>
                         </ul>

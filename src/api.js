@@ -1,5 +1,5 @@
-function buscarProdutos(param = '', type = '', path = 'src') {
-    const url = `${path}/feminino.json`;
+function buscarProdutos(param = '', type = '') {
+    const url = `/src/feminino.json`;
     console.log(url)
     fetch(url).then((response) => response.json()).then((dados) => {
         dados.map(produto => {
@@ -28,12 +28,12 @@ function mostrarProdutos(produto) {
     const valor = String(produto.valor)
     root.innerHTML += `
     <article class="iten-product">
-        <a href="../../produto/?id=${produto.id}">
+        <a href="/src/produto/?id=${produto.id}">
             <div class="">
                 <img src="${produto.imagem}" alt="">
             </div>
             <div class="text-iten-product">
-                <strong>
+                <strong class="title-iten">
                     ${produto.nome}
                 </strong>
                 <div class="info-preco">
@@ -49,43 +49,51 @@ function mostrarProdutos(produto) {
 }
 
 function mostrarProduto(produto) {
-    const root = document.querySelector('#product-main')
+    const root = document.querySelector('#main-product')
     const valor = String(produto.valor)
     
     root.innerHTML += `
-    <div class="product-view">
-        <div class="img-product">
-            <div class="miniatures">
-                <div class="img-miniature"><img src="${produto.imagem}" alt=""></div>
-                <div class="img-miniature"><img src="${produto.imagem}" alt=""></div>
-                <div class="img-miniature"><img src="${produto.imagem}" alt=""></div>
-                <div class="img-miniature"><img src="${produto.imagem}" alt=""></div>                
+    <div class="produto-container width-content">
+                <div class="path-view"><a href="/">paginal inicial</a> > <a href="/src/produtos/${produto.genero}/?genero=${produto.genero}" >${produto.genero}</a> > <a href="/src/produtos/${produto.genero}/?categoria=${produto.categoria}">${produto.categoria}</a></div>
+                <div id="product-main">
+                    <div class="product-view">
+                        <div class="img-product">
+                            <div class="miniatures">
+                                <div class="img-miniature"><img src="${produto.imagem}" alt=""></div>
+                                <div class="img-miniature"><img src="${produto.imagem}" alt=""></div>
+                                <div class="img-miniature"><img src="${produto.imagem}" alt=""></div>
+                                <div class="img-miniature"><img src="${produto.imagem}" alt=""></div>                
+                            </div>
+                            <div class="normal"><img src="${produto.imagem}" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h1>${produto.nome}</h1>
+                        <div class="classifica-product">
+                            <a href="#">
+                                <span class="star">☆☆☆☆☆</span>
+                                <span>(0)</span>
+                            </a>
+                        </div>
+                        <div class="info-preco">
+                            <p>por:
+                                <span class="preco">R$ ${produto.valor}</span>
+                            </p>
+                            <p>em até <b>5x</b> de <b>R$ ${converteParela(valor)}</b> no cartão de crédito sem juros</p>
+                        </div>
+                        <div id="tamanhos">
+                            
+                            <span>tamanhos</span>
+                        </div>
+                        <div class="action-buy">
+                            <button class="buy">comprar</button>
+                        </div>
+                        <div class="description">
+                        <p>Descrição:</p>
+                        ${produto.descricao}</div>
+                    </div>
+                </div>
             </div>
-            <div class="normal"><img src="${produto.imagem}" alt=""></div>
-        </div>
-    </div>
-    <div class="product-info">
-        <h1>${produto.nome}</h1>
-        <div class="classifica-product">
-            <a href="#">
-                <span class="star">☆☆☆☆☆</span>
-                <span>(0)</span>
-            </a>
-        </div>
-        <div class="info-preco">
-            <p>por:
-                <span class="preco">R$ ${produto.valor}</span>
-            </p>
-            <p>em até <b>5x</b> de <b>R$ ${converteParela(valor)}</b> no cartão de crédito sem juros</p>
-        </div>
-        <div id="tamanhos">
-            
-            <span>tamanhos</span>
-        </div>
-        <div class="action-buy">
-            <button class="buy">comprar</button>
-        </div>
-    </div>
 `
 mostrarTamanho(produto)
 }
@@ -98,16 +106,16 @@ function mostrarTamanho(produto){
              })
 }
 
-function getProdutoPorTipo(path) {
+function getProdutoPorTipo() {
     const urlSearchParams = new URLSearchParams(window.location.search);
     const params = Object.fromEntries(urlSearchParams.entries());
 
     if (params.categoria) {
-        buscarProdutos(params.categoria, 'categoria', path)
+        buscarProdutos(params.categoria, 'categoria')
     } else if (params.id) {
-        buscarProdutos(params.id, 'id', path)
+        buscarProdutos(params.id, 'id')
     } else if(params.genero){
-        buscarProdutos(params.genero, 'genero', path)
+        buscarProdutos(params.genero, 'genero')
     }
 }
 
