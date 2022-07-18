@@ -1,6 +1,0 @@
-{
-    "compilerOptions": {
-      "baseUrl": "src" // <- Este é o nosso cara.
-    },
-    "include": ["src"]
-  }
