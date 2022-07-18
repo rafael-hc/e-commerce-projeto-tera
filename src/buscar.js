@@ -9,21 +9,19 @@ const priceList = ['43.99', '139.99', '43.99', '129.99', '139.99', '99.99', '119
 
 
 for (let i = 0; i < 10; i++) {
-    
-        console.log(`
-        {
-            "id": "${i+71}",
-            "nome": "${nameList[i]}",
-            "imagem": "${linksImg[i]}",
-            "valor": "${priceList[i]}",
-            "tamanho":[
-              "36","38","40","42","44","46","48"
-              ],
-            "resumo": "lorem ipsum..........",
-            "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi facilis quis illo reprehenderit asperiores cumque explicabo, pariatur provident quibusdam incidunt ipsum doloribus illum odio consequatur, iusto nulla in excepturi fugit!",
-            "categoria": "calças-masculinas",
-            "genero": "Masculino"
-        },
-        `)
-    
+  console.log(`
+    {
+      "id": "${i + 71}",
+      "nome": "${nameList[i]}",
+      "imagem": "${linksImg[i]}",
+      "valor": "${priceList[i]}",
+      "tamanho":[
+        "36","38","40","42","44","46","48"
+        ],
+      "resumo": "lorem ipsum..........",
+      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi facilis quis illo reprehenderit asperiores cumque explicabo, pariatur provident quibusdam incidunt ipsum doloribus illum odio consequatur, iusto nulla in excepturi fugit!",
+      "categoria": "calças-masculinas",
+      "genero": "Masculino"
+    },
+  `)
 }
